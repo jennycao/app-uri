@@ -84,21 +84,21 @@ Description
 ```
 2. Launch rqt_reconfigure:
 
-> - Input:None 
+- Input:None 
 
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
 
-> - Expect Result: rqt_reconfigure launches without errors 
+- Expect Result: rqt_reconfigure launches without errors 
 
 3. Launch rqt_reconfigure:
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
 
-> - Input:None 
-> - Expect Result: rqt_reconfigure launches without errors
+- Input:None 
+- Expect Result: rqt_reconfigure launches without errors
 
 
 ### Expect Results
