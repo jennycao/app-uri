@@ -80,7 +80,7 @@ Description
 > - input: None
 
 ```
-        $ roslaunch realsense_camera realsense_r200_nodelet_standalone_preset.launch
+  $ roslaunch realsense_camera realsense_r200_nodelet_standalone_preset.launch
 ```
 2. Launch rqt_reconfigure:
 
@@ -90,7 +90,7 @@ Description
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
 
-> - Result: rqt_reconfigure launches without errors 
+> - Expect Result: rqt_reconfigure launches without errors 
 
 3. Launch rqt_reconfigure:
 ```
@@ -98,7 +98,7 @@ Description
 ```
 
 > - Input:None 
-> - Result: rqt_reconfigure launches without errors
+> - Expect Result: rqt_reconfigure launches without errors
 
 
 ### Expect Results
