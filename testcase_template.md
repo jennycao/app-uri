@@ -9,6 +9,7 @@ Description
 -------
 ### Precondition
  1. TC-000 Build and Install RealSense wrapper
+
 ### Test Steps 
 <table >
 	<tr>
@@ -73,25 +74,27 @@ Description
 	</tr>
 </table>
  
-  1. Launch the realsense nodelet using the    
 
+1. Launch the realsense nodelet using the    
 > input: None
 ```
         $ roslaunch realsense_camera realsense_r200_nodelet_standalone_preset.launch
 ```
-  2. Launch rqt_reconfigure:
+2. Launch rqt_reconfigure:
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
 >Input:None 
 >Result: rqt_reconfigure launches without errors 
 
-  3. Launch rqt_reconfigure:
+3. Launch rqt_reconfigure:
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
 >Input:None 
 >Result: rqt_reconfigure launches without errors
+
+
 ### Expect Results
 1.  RealSense wrapper connects to camera and runs without errors
 2. rqt_reconfigure launches without errors
