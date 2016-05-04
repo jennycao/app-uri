@@ -2,7 +2,7 @@ Meta Info
 -------
 - purpose: Dynamically change parameters at runtime
 - story: RAR-XXX
-- author: Anton C.
+- author: Anton C
 - tags: FV, Extend 
 
 Description
@@ -76,23 +76,29 @@ Description
  
 
 1. Launch the realsense nodelet using the    
-> input: None
+
+> - input: None
+
 ```
         $ roslaunch realsense_camera realsense_r200_nodelet_standalone_preset.launch
 ```
 2. Launch rqt_reconfigure:
+
+> - Input:None 
+
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
->Input:None 
->Result: rqt_reconfigure launches without errors 
+
+> - Result: rqt_reconfigure launches without errors 
 
 3. Launch rqt_reconfigure:
 ```
  $ rosrun rqt_reconfigure rqt_reconfigure
 ```
->Input:None 
->Result: rqt_reconfigure launches without errors
+
+> - Input:None 
+> - Result: rqt_reconfigure launches without errors
 
 
 ### Expect Results
